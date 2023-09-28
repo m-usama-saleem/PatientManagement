@@ -1,0 +1,11 @@
+//Example function to pass to Header Component
+
+// const openCreateModal = () => {
+//     setShowCreate(true)
+// }
+
+//=================================================================
+
+//Example to pass onClick function to create button
+
+{/* <Header createClick={openCreateModal} /> */}

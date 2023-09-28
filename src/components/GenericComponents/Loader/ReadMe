@@ -1,0 +1,5 @@
+<!-- Component Usage
+
+cont [loaderContent, setLoaderContent] = useState('')
+
+<Loader content={loaderContent} /> -->

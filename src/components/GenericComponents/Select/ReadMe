@@ -1,0 +1,39 @@
+//Example Data to pass to Select Component
+
+// const options = [
+//     { name: 'Amanullah', code: 1 },
+//     { name: 'Usama', code: 2 },
+//     { name: 'Ehtisham', code: 3 },
+// ]
+
+// const getValue = (value) => {
+//     console.log(value)
+// }
+
+// const createDoctor = () => {
+//     setCreateHeader('Create Doctor')
+//     setCreateContent(<CreateDoctor calledFromModal modalState={getModalState} />)
+//     setShowCreate(true)
+// }
+
+// const attributes = { 
+//     type: 'select',
+//     name: 'doctor',
+//     label: 'Doctor',
+//     placeholder: 'Doctor',
+//     options: options,
+//     optionName: 'name', //this is the keyname, should be present in your options data
+//     required: true,
+//     searchable: true, //would be simple select if searchable is not passed as paramater
+//     create: true, //create option wont show if create is not passed as paramater
+//     createFunction: createDoctor //function to be called on create click in dropdown
+//     onChange: getValue // this should be a function
+// }
+
+//name is mandatory, everything else is not needed
+
+//=================================================================
+
+//Example to pass data as props -->
+
+{/* <Select features={attributes} /> */}

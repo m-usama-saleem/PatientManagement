@@ -1,0 +1,41 @@
+//Example Data to pass to Table Component
+
+// const COLUMNS = [
+//         {
+//             field: 'name',
+//             header: 'Name',
+//             sortable: false,
+//             filter: true
+//         },
+//         {
+//             field: 'age',
+//             header: 'Age',
+//             sortable: true,
+//             filter: false
+//         },
+//         {
+//             field: 'contact',
+//             header: 'Contact',
+//             sortable: true,
+//             filter: true
+//         },
+//     ]
+
+//     const ROWS = [
+//         {
+//             id: 1022,
+//             name: "Willard Kolmetz",
+//             age: 23,
+//             contact: "03480263118"
+//         }, {
+//             id: 1338,
+//             name: "Kaitlyn Ogg",
+//             age: 28,
+//             contact: "03422779027"
+//         }]
+
+//=================================================================
+
+//Example to pass data as props columns and rows
+
+{/* <Table rows={ROWS} columns={COLUMNS} /> */}

@@ -1,0 +1,24 @@
+//Example functions and state to pass to Modal Component
+
+// const [showCreate, setShowCreate] = useState(false)
+// const content = <div>Amanullah</div>
+
+// const openCreateModal = () => {
+//     setShowCreate(true)
+// }
+
+//call above function from your component, when clicked to open modal
+
+// const closeCreateModal = () => {
+//     setShowCreate(false)
+// }
+
+//=================================================================
+
+//Example to pass props
+//There is a must need to maintain show state variable
+
+//A function (closeCreateModal) is must needed to pass to Modal so that when
+//modal closes it updates show state in your component
+
+{/* <Modal content={content} header={'Create a Patient'} show={showCreate} hide={closeCreateModal} /> */}

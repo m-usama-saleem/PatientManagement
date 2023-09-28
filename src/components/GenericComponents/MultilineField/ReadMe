@@ -1,0 +1,25 @@
+// Example Data to pass to MultiField Component
+
+// const getValue = (value) => {
+//     console.log(value)
+// }
+
+// const attributes = { 
+//     type: 'multiline', 
+//     name: 'firstname', 
+//     label: 'First Name', 
+//     placeholder: 'First Name', 
+//     required: true,
+//     icon: 'user',
+//     rows: 5
+//     onChange: getValue // this should be a function
+// }
+
+// by default rows are 3
+// name is mandatory, everything else is not needed
+
+// =================================================================
+
+// Example to pass data as props
+
+// <MultilineField features={attributes} />

@@ -1,0 +1,4 @@
+// List of validation functions that can be imported for validation
+
+// Email validation
+// import { validateEmail } from '../components/GenericComponents/Validations';

@@ -1,0 +1,9 @@
+<!-- Component Usage
+
+let type = 'error'  // types can be error || warn || success || info
+let header = 'Error'
+let message = 'Error Message'
+
+can make state variables as per need
+
+<Toast type={type} header={header} message={message} /> -->

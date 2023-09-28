@@ -1,0 +1,23 @@
+<!-- //Example Data to pass to TextField Component
+
+const getValue = (value) => {
+    console.log(value)
+}
+
+const attributes = { 
+    type: 'text', 
+    name: 'firstname', 
+    label: 'First Name', 
+    placeholder: 'First Name', 
+    required: true,
+    icon: 'user',
+    onChange: getValue // this should be a function
+}
+
+//name is mandatory, everything else is not needed
+
+//=================================================================
+
+//Example to pass data as props -->
+
+<!-- <TextField features={attributes} /> -->

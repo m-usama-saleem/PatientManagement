@@ -1,0 +1,44 @@
+// <!-- //Example Data to pass to Form Component
+
+//import { validateEmail } from '../components/GenericComponents/validations';
+
+// const doctorSchema = [
+//     {
+//         div: [
+//             { type: 'text', name: 'firstname', label: 'First Name', placeholder: 'First Name', icon: 'user', required: true },
+//             { type: 'text', name: 'lastname', label: 'Last Name', placeholder: 'Last Name', icon: 'user' },
+//         ]
+//     },
+//     {
+//         div: [
+//             { type: 'text', name: 'contact', label: 'Contact', placeholder: 'Contact #', icon: 'mobile' },
+//             { type: 'text', name: 'email', placeholder: 'Email', icon: 'envelope', validation: validateEmail },
+//         ]
+//     },
+//     {
+//         div: [
+//             { type: 'text', name: 'address', label: 'Address', icon: 'map' },
+//         ]
+//     },
+//     {
+//         div: [
+//             { type: 'text', name: 'designation', label: 'Designation', placeholder: 'Designation', required: true },
+//             { type: 'text', name: 'city', label: 'City', placeholder: 'City' },
+//             { type: 'text', name: 'country', label: 'Country', placeholder: 'Country' },
+//         ]
+//     }
+// ]
+
+// const getData = (values) => {
+//     console.log(values)
+// }
+
+// const closeExample = () => {
+//     console.log('do this on cancel button click')
+// }
+
+// //=================================================================
+
+// //Example to pass data as props -->
+
+// <!-- <Form schema={doctorSchema} submit={getData} cancel={closeExample} /> -->

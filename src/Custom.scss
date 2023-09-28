@@ -1,0 +1,512 @@
+.main-invoice-container {
+    width: 100%;
+
+    .procedures-container {
+        width: 100%;
+        padding: 2rem;
+
+        .procedure-headers {
+            width: 97%;
+            display: flex;
+            margin-left: 1rem;
+
+            .name-container {
+                width: 19.9%;
+            }
+
+            .description-container {
+                width: 27.8%;
+            }
+
+            .quantity-container {
+                width: 14.1%;
+            }
+
+            .price-container {
+                width: 15.1%;
+            }
+
+            .notes-container {
+                width: 20%;
+            }
+        }
+
+        .scrollable-container {
+            height: 400px;
+            overflow-y: scroll;
+
+            .single-procedure {
+                width: 100%;
+                display: flex;
+                padding: 0.9rem;
+                margin-bottom: 1rem;
+                justify-content: space-between;
+                box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+                .name-container {
+                    width: 19%
+                }
+
+                .description-container {
+                    width: 27%
+                }
+
+                .quantity-container {
+                    width: 13%
+                }
+
+                .price-container {
+                    width: 14%
+                }
+
+                .notes-container {
+                    width: 22%;
+                }
+            }
+        }
+    }
+
+    .info-container {
+        width: 100%;
+        display: flex;
+        padding: 0 1rem;
+        margin-top: 2rem;
+        justify-content: space-between;
+
+        .notes-container {
+            width: 77%;
+            display: flex;
+            justify-content: space-between;
+
+            .medication-notes-container {
+                width: 49%
+            }
+
+            .special-notes-container {
+                width: 49%
+            }
+        }
+
+        .amount-container {
+            width: 21%;
+        }
+    }
+}
+
+.procedural-notes-container {
+    width: 100%;
+
+    .note-container {
+        width: 100%;
+        display: flex;
+
+        .field-container {
+            width: 90%
+        }
+
+        .remove-container {
+            width: 10%
+        }
+    }
+}
+
+.invoice-parent {
+    width: 100%;
+
+    .detail-container {
+        width: 90%;
+        display: flex;
+        margin: auto;
+
+        .doctor-container,
+        .patient-container,
+        .date-container {
+            width: 33.3%;
+            text-align: center;
+        }
+    }
+}
+
+.main-invoice-header {
+    width: 100%;
+    display: flex;
+
+    .invoice-heading-container {
+        width: 50%;
+
+        .invoice-info-container {
+            width: 80%;
+            display: flex;
+
+            .date-time-container {
+                width: 60%;
+                text-align: center;
+                border: 1px solid #000;
+
+                p {
+                    margin: 0 !important;
+                    border: 1px solid #000;
+                }
+
+                .custom-font {
+                    border: 1px solid #000;
+                    font-weight: bolder;
+                    color: #000;
+                    background: #D6DBDF
+                }
+            }
+
+            .invoice-number-container {
+                width: 40%;
+                text-align: center;
+                border: 1px solid #000;
+
+                p {
+                    margin: 0 !important;
+                    border: 1px solid #000;
+                }
+
+                .custom-font {
+                    border: 1px solid #000;
+                    font-weight: bolder;
+                    color: #000;
+                    background: #D6DBDF
+                }
+            }
+        }
+    }
+
+    .logo-container {
+        width: 50%;
+        text-align: center;
+
+        .logo-holder {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.bill-to-container {
+    width: 100%;
+    margin-top: 50px;
+
+    .header {
+        width: 99.9%;
+        border: 1px solid #000;
+        background: #D6DBDF;
+        text-align: center;
+        font-weight: bolder;
+        color: #000;
+    }
+
+    .bill-info-container {
+        width: 100%;
+
+        .consumer-container, .phone-container, .address-container {
+            width: 100%;
+            display: flex;
+
+            .heading-container {
+                width: 20%;
+                text-align: center;
+                color: #000;
+                font-weight: bolder;
+                border: 1px solid #000;
+            }
+
+            .info-container {
+                width: 80%;
+                border: 1px solid #000;
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+.invoice-procedures-container {
+    width: 100%;
+    margin-top: 50px;
+
+    .headers-container {
+        width: 100%;
+        display: flex;
+        
+        .serial-no-container {
+            width: 10%;
+            text-align: center;
+            background: #D6DBDF;
+            color: #000;
+            font-weight: bolder;
+            border: 1px solid #000;
+        }
+
+        .procedure-info-container {
+            width: 60%;
+            text-align: center;
+            background: #D6DBDF;
+            color: #000;
+            font-weight: bolder;
+            border: 1px solid #000;
+        }
+
+        .price-container {
+            width: 10%;
+            text-align: center;
+            background: #D6DBDF;
+            color: #000;
+            font-weight: bolder;
+            border: 1px solid #000;
+        }
+
+        .qty-container {
+            width: 10%;
+            text-align: center;
+            background: #D6DBDF;
+            color: #000;
+            font-weight: bolder;
+            border: 1px solid #000;
+        }
+
+        .amount-container {
+            width: 10%;
+            text-align: center;
+            background: #D6DBDF;
+            color: #000;
+            font-weight: bolder;
+            border: 1px solid #000;
+        }
+    }
+
+    .row-container {
+        width: 100%;
+        display: flex;
+        
+        .serial-no-container {
+            width: 10%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .procedure-info-container {
+            width: 60%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .price-container {
+            width: 10%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .qty-container {
+            width: 10%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .amount-container {
+            width: 10%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+    }
+
+    .total-container {
+        width: 100%;
+        display: flex;
+        
+        .serial-no-container {
+            width: 10%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .discount-left-container {
+            width: 15%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .discount-container {
+            width: 20%;
+            text-align: center;
+            border: 1px solid #000;
+            font-weight: bolder;
+            color: #000;
+        }
+
+        .discount-right-container {
+            width: 15%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .amount-container {
+            width: 20%;
+            text-align: center;
+            border: 1px solid #000;
+            font-weight: bolder;
+            color: #000;
+        }
+
+        .figure-container {
+            width: 20%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+    }
+
+    .final-container {
+        width: 100%;
+        display: flex;
+        
+        .serial-no-container {
+            width: 10%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .discount-left-container {
+            width: 15%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .discount-container {
+            width: 20%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .discount-right-container {
+            width: 15%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        .amount-container {
+            width: 20%;
+            text-align: center;
+            border: 1px solid #000;
+            font-weight: bolder;
+            color: #000;
+        }
+
+        .figure-container {
+            width: 20%;
+            text-align: center;
+            border: 1px solid #000;
+        }
+    }
+}
+
+.received-container {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+
+    .by-container {
+        width: 20%;
+        background: #D6DBDF;
+        color: #000;
+        font-weight: bolder;
+        text-align: center;
+        border: 1px solid #000;
+    }
+
+    .name-container {
+        width: 50%;
+        text-align: center;
+        border: 1px solid #000;
+    }
+
+    .paid-container {
+        width: 10%;
+        background: #D6DBDF;
+        color: #000;
+        font-weight: bolder;
+        text-align: center;
+        border: 1px solid #000;
+    }
+
+    .amount-container {
+        width: 20%;
+        text-align: center;
+        border: 1px solid #000;
+    }
+}
+
+.note-container {
+    width: 100%;
+    display: flex;
+
+    .heading-container {
+        width: 20%;
+        background: #D6DBDF;
+        color: #000;
+        font-weight: bolder;
+        text-align: center;
+        border: 1px solid #000;
+    }
+
+    .info-container {
+        width: 50%;
+        text-align: center;
+        border: 1px solid #000;
+    }
+
+    .due-container {
+        width: 10%;
+        background: #D6DBDF;
+        color: #000;
+        font-weight: bolder;
+        text-align: center;
+        border: 1px solid #000;
+    }
+
+    .amount-container {
+        width: 20%;
+        text-align: center;
+        border: 1px solid #000;
+    }
+}
+
+.query-container {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+
+    .text-container {
+        width: 55%;
+        text-align: center;
+    }
+
+    .signature-container {
+        width: 45%;
+        text-align: center;
+        padding-top: 20px;
+
+        .signature-line {
+            width: 80%;
+            border-bottom: 1px solid #000 !important;
+            border: none;
+            margin: auto;
+        }
+    }
+}
+
+.specs-container {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+
+    .date-container {
+        width: 20%
+    }
+
+    .time-container {
+        width: 60%;
+        text-align: center;
+    }
+}

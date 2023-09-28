@@ -1,0 +1,23 @@
+// Example Data to pass to DateField Component
+
+// const getValue = (value) => {
+//     console.log(value)
+// }
+
+// const attributes = { 
+//     type: 'date', 
+//     name: 'DOB', 
+//     label: 'Date of Birth', 
+//     placeholder: 'Date of Birth',
+//     min: new Date("mm/dd/yyyy")
+//     max: new Date("mm/dd/yyyy")
+//     onChange: getValue // this should be a function
+// }
+
+// name is mandatory, everything else is not needed
+
+// =================================================================
+
+// Example to pass data as props
+
+// <DateField features={attributes} />

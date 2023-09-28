@@ -1,0 +1,23 @@
+<!-- Component Usage
+
+const viewHistory = () => {
+    console.log('history')
+}
+
+//can pass customStyle to the very default button also by passing customStyle prop
+
+const custom = {
+    background: 'red',
+    width: '100px'
+}
+
+//Default Button
+<Button onButtonClick={viewHistory} label="View Invoice History" className="mr-2"></Button> 
+
+//Custom Button
+<Button 
+    onButtonClick={viewHistory}
+    customStyle={custom}
+    label="View Invoice History"
+    className="mr-2">
+</Button> -->
